@@ -1,0 +1,11 @@
+name = "Example table"
+description = "Example table from hook_views_data"
+package = "0Development"
+core = 7.x
+
+
+;node_reference is useful but not required
+dependencies[] = views
+
+;files[] = taxcopy.module
+
