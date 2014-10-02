@@ -146,8 +146,10 @@ function custom_table_views_data(){
       'handler' => 'views_handler_filter_date',
     ),
     'argument' => array(
-      'handler' => 'date_views_handler_argument',
+      'handler' => 'views_handler_argument_date',
+      'empty field name' => t('Undated'),
     ),
+
   );
 
   return $data;
